@@ -11,10 +11,10 @@ cls
 echo.
 
 :: Menu
-echo 1. Object Orientated Programming
-echo 2. Emerging Technologies
-echo 3. Distributed Systems
-echo 4. Mobile Applications Development 3
+echo 1. Menu Item 1
+echo 2. Menu Item 2
+echo 3. Menu Item 3
+echo 4. Menu Item 4
 echo 5. Exit
 echo.
 echo.
@@ -30,7 +30,7 @@ IF '%x%' == '%x%' GOTO Item_%x%
 
 :Item_1
 start /MIN /DC:\Users\kevin\java-2019-09\eclipse eclipse.exe
-start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe https://learnonline.gmit.ie/course/view.php?id=945
+start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe ENTER WEB ADDRESS HERE (Optional)
 
 :: Goes to start of menu again, allowing the user to make another selection
 GOTO Start
@@ -38,12 +38,12 @@ GOTO Start
 :Item_2
 start /MIN /D"C:\Program Files\Microsoft VS Code" Code.exe
 start /MIN /DD:\Cmder Cmder.exe
-start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe https://learnonline.gmit.ie/course/view.php?id=135
+start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe ENTER WEB ADDRESS HERE (Optional)
 GOTO Start
 
 :Item_3
 start /MIN /DC:\Users\kevin\eclipse\eclipse eclipse.exe
-start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe https://learnonline.gmit.ie/course/view.php?id=614
+start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe ENTER WEB ADDRESS HERE (Optional)
 GOTO Start
 
 :Item_4
