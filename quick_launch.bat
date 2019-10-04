@@ -29,25 +29,25 @@ IF '%x%' == '%x%' GOTO Item_%x%
 :: The above two lines should NOT be changed
 
 :Item_1
-start /MIN /DC:\Users\kevin\java-2019-09\eclipse eclipse.exe
-start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe ENTER WEB ADDRESS HERE (Optional)
+start /MIN /DC:\application\path eclipse.exe
+start /MIN /D"D:\application\path\with\spaces" firefox.exe ENTER WEB ADDRESS HERE (Optional)
 
 :: Goes to start of menu again, allowing the user to make another selection
 GOTO Start
 
 :Item_2
-start /MIN /D"C:\Program Files\Microsoft VS Code" Code.exe
-start /MIN /DD:\Cmder Cmder.exe
-start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe ENTER WEB ADDRESS HERE (Optional)
+start /MIN /D"D:\application\path\with\spaces" Code.exe
+start /MIN /DC:\application\path Cmder.exe
+start /MIN /D"D:\application\path\with\spaces" firefox.exe ENTER WEB ADDRESS HERE (Optional)
 GOTO Start
 
 :Item_3
-start /MIN /DC:\Users\kevin\eclipse\eclipse eclipse.exe
-start /MIN /D"C:\Program Files\Mozilla Firefox" firefox.exe ENTER WEB ADDRESS HERE (Optional)
+start /MIN /DC:\application\path eclipse.exe
+start /MIN /D"D:\application\path\with\spaces" firefox.exe ENTER WEB ADDRESS HERE (Optional)
 GOTO Start
 
 :Item_4
-start /MIN /D"D:\Unity 2019\Unity Hub" "Unity Hub.exe"
+start /MIN /D"D:\application\path\with\spaces" "Unity Hub.exe"
 GOTO Start
 
 :: Exits the batch file
